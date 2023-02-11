@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+
+*{
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+
+
+
+.landingPage{
+
+    overflow: hidden;
+    height: 100vh;
+}
+
+
+
+.navbar{
+    background-color: #1BAFF3; 
+    height: 10vh;
+}
+
+.menu{
+  z-index: 4;
+}
+
+.navbar img{
+    width:6rem;
+    height:5rem;
+    transition: all 1s ease-in-out;
+
+}
+
+.navbar img:hover{
+    opacity: 0.8;
+}
+
+.navbar a{
+    text-transform: uppercase;
+    
+}
+
+.navbar a:hover{
+    
+    opacity: 0.8;
+}
+
+.menulink{
+    visibility: hidden;
+    width: 30vw;
+    position: absolute;
+    right: 0px;
+    z-index: 10;
+    border-radius: 0.5rem;  
+}
+
+.landing{
+  position: relative;
+}
+
+.landing img{
+height: 105vh;
+width: 100vw;
+}
+
+
+.landingword{
+    position: absolute;
+    z-index: 3;
+    margin-top: 15rem;
+    
+}
+
+.landingbutton{
+    transition: all 1s ease-in-out;
+    background-color: #0E234E;
+    color: #ffffff;
+    width: 7rem;
+}
+
+.landingbutton:hover{
+    background-color: #1BAFF3;
+}
+
+
+#overlay{
+    content: "";
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    
+    background-color: black;
+    opacity: 0.4;
+    z-index: 1;
+    overflow-x: hidden;
+    
+}
+
+.title{
+    color:#ffffff;
+}
+
+.application  .title, .program .title{
+    color: #1BAFF3;
+}
+
+.program li{
+    list-style-type: disc;
+}
+
+.programimg{
+    height: 17rem;
+    
+}
+
+
+.application{
+    height: auto;
+    margin-bottom: 2rem;
+  
+    border-bottom: 5px solid #0E234E;
+
+}
+
+.application ol{
+    line-height: 2rem;
+}
+
+
+.menulink{
+  width: 50vw;
+  position: absolute;
+  right: 0px;
+  z-index: 10;
+  border-radius: 0.5rem;
+   
+}
+
+.active1{
+  transition: all 2s ease-in-out;
+  margin-right: 0rem;
+
+  
+  visibility: visible;
+  margin-top: 5rem;
+
+  z-index: 4;
+}
+
+
+.linkk{
+  border-bottom: 2px solid #0d015c;
+}
+
+#footer{
+    background-color: #0E234E;
+    height: auto;
+  }
+  
+  .footerlinks{
+    transition: all 1s ease-in-out;
+    color:#ffffff;
+    z-index: 2;
+  }
+  
+  .footerlinks:hover{
+    opacity: 0.7;
+  }
+  .input{
+    border: 0;
+    font-size: 0.9rem;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    outline: none;
+    background: transparent;
+    color: whitesmoke;
+    margin-bottom: 20px;
+  }
+  #contact{
+    line-height: 1.6rem;
+  }
+  
+  form .btn{
+    transition: all 0.5s ease-in-out;
+    background-color: #ffffff;
+    color:#0E234E;
+    padding: 0.25rem 0.5rem;
+  }
+
+
+  .height{
+    width: 55vw;
+    height: 60rem;
+  }
+  
+  
+  .instruction{
+    height: 60rem;
+    overflow: hidden;
+  }
+  form .btn:hover{
+    background-color:#ffffff;
+    padding: 0.25rem 0.6rem;
+    opacity: 0.8;
+  }
+  
+  .fa {
+    transition: all 1s ease-in-out;
+    padding: 0.3rem;
+    font-size: 150%;
+    width: 5rem;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  
+  .fa:hover{
+    opacity: 0.5;
+  }
+  
+  .copyright{
+    height: 5vh;
+    background-color: #ff2a00;
+  
+  }
+
+  @media (max-width: 1024px){
+
+   
+  
+  #socialmedia{
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #contact{
+    margin: 0 auto;
+    text-align: center;
+  
+  }
+  
+  
+  #supportform{
+    margin: 0 auto;
+    text-align: center;
+  
+  }
+
+  
+  
+  }
+
+  @media (max-width: 766px){
+
+    .height{
+      
+      height: 80vh;
+  
+    }
+
+    .landingPage{
+
+      height: 50vh;
+  }
+
+    .landing img{
+      height: 50vh;
+      
+      }
+
+      .landingword{
+       
+        margin-top: 1rem;
+        
+    }
+      
+    
+   
+
+    
+  }
+  
+  
