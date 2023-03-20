@@ -19,6 +19,8 @@
     <!--tailwind css cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
 
+     <link rel="icon" type="image/x-icon" href="./images/logo.png">
+
      <!--star rating cdn-->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Marydasie-About</title>
@@ -33,15 +35,16 @@
                     </a>
                 </div>
     
-                <ul class="hidden   lg:flex justify-center ml-8  py-4 text-white font-bold ">
+                
+
+                 <div>
+                    <ul class="hidden   lg:flex justify-center ml-8  py-4 text-white font-bold ">
                     <li><a href="../index.html" class="mx-4 ">Home</a></li>
-                    <li><a href="about.html" class="mx-4 ">About</a></li>
-                    <li><a href="admission.html" class="mx-4 ">Admission</a></li>
+                    <li><a href="./about.html" class="mx-4 ">About</a></li>
+                    <li><a href="./admission.html" class="mx-4 ">Admission</a></li>
                     <li><a href="#footer" class="mx-4 ">Contact</a></li>
                 </ul>
-
-                <div>
-                    <button  id="menubutt"  ><span class="menu inline-block lg:hidden  text-white text-4xl visible pt-4  "><ion-icon name="menu-outline"></ion-icon></span></button>
+                    <button  id="menubutt"  ><span class="menu inline-block lg:hidden  text-white text-4xl  pt-4  "><ion-icon name="menu-outline"></ion-icon></span></button>
 
                     
                 </div>
@@ -51,12 +54,12 @@
                 </div>
 
 
-                <div class="pb-4 menulink" class="lg:invisible">
+                <div class="pb-4 menulink w-full md:w-1/2 lg:hidden mx-4  pl-4 rounded-lg" >
                     <ul class="py-4 bg-white  font-bold text-sm lg:text-base  " id="menulink">
-                       <div class="pt-2 text-lg uppercase linkk"><li><a href="./" class="  mx-4 ">Home</a></li></div>
-                        <div class="pt-6 text-lg uppercase linkk"><li><a href="../pages/about.html" class="  mx-4 ">About</a></li></div>
-                        <div class="pt-6 text-lg uppercase linkk"><li><a href="../pages/admission.html" class="   mx-4">Admission</a></li></div>
-                        <div class="pt-6 text-lg uppercase linkk"><li><a href="#footer" class="  mx-4 ">Contact</a></li></div>
+                       <div class="pt-2 text-lg shadow-sm uppercase linkk"><li><a href="../index.html" class="  mx-4 ">Home</a></li></div>
+                        <div class="pt-6 text-lg shadow-sm uppercase linkk"><li><a href="./about.html" class="  mx-4 ">About</a></li></div>
+                        <div class="pt-6 text-lg shadow-sm uppercase linkk"><li><a href="./admission.html" class="   mx-4">Admission</a></li></div>
+                        <div class="pt-6 text-lg shadow-sm uppercase linkk"><li><a href="#footer" class="  mx-4 ">Contact</a></li></div>
     
                        
                     </ul>
@@ -73,7 +76,7 @@
                 <div class=" text-2xl md:text-5xl  text-white font-bold text-yellow-400">ADMISSION IN PROGRESS</div>
                 <div class="text-3xl font-bold text-white mt-4   "><h2>ABOUT <br> MARYDASSIE FASHION SCHOOL</h2></div>
             
-                <button class="landingbutton mt-2 md:mt-4 p-2 rounded-lg text-base font-bold tracking-wide"><a href="../pages/admission.html #form">Enroll Now</a></button>
+                <button class="landingbutton mt-2 md:mt-4 p-2 rounded-lg text-base font-bold tracking-wide"><a href="./admission.html#application">Enroll Now</a></button>
 
                 
 
@@ -190,7 +193,7 @@
                 
                     </ul>
 
-                    <button class="landingbutton ml-24 md:ml-12 mt-4 md:mt-10 p-2 rounded-lg text-base font-bold tracking-wide">Enroll Now</button>
+                    <button class="landingbutton mt-2 md:mt-4 p-2 rounded-lg text-base font-bold tracking-wide"><a href="./admission.html#application">Enroll Now</a></button>
 
 
                 </div>
@@ -234,11 +237,12 @@
 
             </div>
         </div>
+    
 
 
-        <div class="messagefromfounder1  bg-gray-200 py-4 mt-4 mr-8 mx-2">
-            <div class=" messagefromfounder bg-gray-200 ">
-                <div class="uppercase text-center text-xk lg:text-2xl font-bold py-2 underline">Message From Our Founder</div>
+        <div class="messagefromfounder1   py-4 mt-4 mr-8 mx-2 my-4">
+            <div class=" messagefromfounder w-full ">
+                <div class="uppercase text-center text-xs lg:text-2xl font-bold py-2 underline">Message From Our Founder</div>
     
                 <div class="md:grid md:grid-cols-2 gap-4">
                     <div>
@@ -247,7 +251,7 @@
                     </div>
                     <div>
     
-                        <p class="text-gray-600 text-sans px-0 md:px-4 md:px-0 pt-0 lg:pt-4 lg:text-base text-sm md:text-sm ">
+                        <p class="text-gray-600 text-sans px-0 md:px-4 md:px-0 pt-0 lg:pt-4 lg:text-base text-sm md:text-sm  ">
     
                             As a founder of this great institution,
                              I would love to welcome you as you take the first step toward 
@@ -314,11 +318,9 @@
 <div id="footer" class="w-full mt-6">
     <div class="pb-4 mx-4 md:mx-0">
         <ul class="flex justify-center py-4 text-white font-bold text-sm lg:text-base " id="footerlink">
-            <li><a href="#main" class="mx-2 md:mx-4 footerlinks ">Home</a></li>
-            <li><a href="#about" class="mx-2 md:mx-4 footerlinks ">About</a></li>
-            <li><a href="#Videos" class="mx-2 md:mx-4 footerlinks ">Admission</a></li>
-            <li><a href="#Contacts" class="mx-2 md:mx-4 footerlinks ">Services</a></li>
-            <li><a href="#section4" class="mx-2 md:mx-4 footerlinks ">Contact</a></li>
+            <li><a href="../index.html" class="mx-2 md:mx-4 footerlinks ">Home</a></li>
+            <li><a href="./about.html" class="mx-2 md:mx-4 footerlinks ">About</a></li>
+            <li><a href="./admission.html" class="mx-2 md:mx-4 footerlinks ">Admission</a></li>
         </ul>
         
 
@@ -352,16 +354,7 @@
 
         </div>
 
-        <div id="supportform" class="lg:w-1/4 w-3/4 pt-6 lg:pt-0">
-            <p class="pb-4 text-white">For Support: </p>
-            <form>
-                <input type="email" placeholder="email" size="30px" class="input" maxlength="30"/></br>
-                <input id="textmessage" type="text" cols="40" rows="5" name="message"  class="w-40 h-12"
-                placeholder="I want to apply, How?"/></br>
-                <button class="btn font-bold text-sans mt-4 " type="submit" >Submit</button>
-
-            </form>
-        </div>
+        
 
     </div>
 

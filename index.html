@@ -21,6 +21,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+     <link rel="icon" type="image/x-icon" href="./images/logo.png">
+
 
 
     <title>Marydassie-Home</title>
@@ -35,33 +37,36 @@
                     </a>
                 </div>
     
-                <ul class="hidden   lg:flex justify-center ml-8  py-4 text-white font-bold ">
-                    <li><a href="./" class="mx-4 ">Home</a></li>
-                    <li><a href="./pages/about.html" class="mx-4 ">About</a></li>
-                    <li><a href="./pages/admission.html" class="mx-4 ">Admission</a></li>
-                    <li><a href="#section4" class="mx-4 ">Contact</a></li>
-                </ul>
-
                 <div>
-                    <button  id="menubutt"  ><span class="menu inline-block lg:invisible  text-white text-4xl visible pt-4  "><ion-icon name="menu-outline"></ion-icon></span></button>
+                    <ul class="hidden    lg:flex justify-center ml-8  py-4 text-white font-bold ">
+                        <li><a href="./" class="mx-4 ">Home</a></li>
+                        <li><a href="./pages/about.html" class="mx-4 ">About</a></li>
+                        <li><a href="./pages/admission.html" class="mx-4 ">Admission</a></li>
+                        <li><a href="#section4" class="mx-4 ">Contact</a></li>
+                    </ul>
+                <div>
+                    <button  id="menubutt"  ><span class="menu inline-block lg:hidden  text-white text-4xl  pt-4  "><ion-icon name="menu-outline"></ion-icon></span></button>
 
                     
                 </div>
+                </div>
+
                 
-                <div class="hidden lg:block text-gray-200 pr-8 my-auto text-base italic text-sans text-center">
-                    <span>Contact: 0241 732 689/023 665 654 </br> Gmail:marydassiegh.gmail.com</span>
+                
+                <div class="hidden lg:block text-gray-200 pr-8 my-auto text-base  text-sans text-center">
+                    <span class="font-medium">Contact: 030-298-4827 || 024-975-2272 </br> Gmail:marydassiegh.gmail.com</span>
                 </div>
 
                 
                 </div>
 
                <div>
-                <div class="pb-4 menulink " class="lg:invisible">
-                    <ul class="py-4 bg-white  font-bold text-sm lg:text-base  " id="menulink">
-                        <div class="pt-2 text-lg uppercase linkk"><li><a href="./" class="  mx-4 ">Home</a></li></div>
-                        <div class="pt-6 text-lg uppercase linkk"><li><a href="./pages/about.html" class="  mx-4 ">About</a></li></div>
-                        <div class="pt-6 text-lg uppercase linkk"><li><a href="./pages/admission.html" class="   mx-4">Admission</a></li></div>
-                        <div class="pt-6 text-lg uppercase linkk"><li><a href="#footer" class="  mx-4 ">Contact</a></li></div>
+                <div class="pb-4 menulink w-full md:w-1/2 lg:hidden " >
+                    <ul class="py-4 bg-gray-100 rounded-lg  font-bold text-sm lg:text-base  " id="menulink">
+                        <div class="p-4 text-lg shadow-sm linkk"><li><a href="./" class="  mx-4 ">Home</a></li></div>
+                        <div class="p-4 text-lg shadow-sm linkk"><li><a href="./pages/about.html" class="  mx-4 ">About</a></li></div>
+                        <div class="p-4 text-lg shadow-sm linkk"><li><a href="./pages/admission.html" class="   mx-4">Admission</a></li></div>
+                        <div class="p-4 text-lg shadow-sm linkk"><li><a href="#footer" class="  mx-4 ">Contact</a></li></div>
 
                        
                     </ul>
@@ -82,9 +87,9 @@
 
                 <div id="landingword" class="w-full  h-full text-center   ">
                     <div class="name md:text-lg text-sm text-white font-bold tracking-wide  ">MARYDASSIE FASHION SCHOOL</div>
-                    <span class="text-xl md:text-5xl text-white font-bold text-center">ADMISSION IN PROGRAM</span>
+                    <span class="text-xl md:text-5xl text-white font-bold text-center">ADMISSION IN PROGRESS</span>
                     <div>
-                        <a href="./pages/admission.html #form"><button class="mt-2 md:mt-4 p-2 rounded-lg text-base font-bold tracking-wide">Enroll Now</button></a>
+                        <a href="./pages/admission.html#application"><button class="w-32 mt-2 md:mt-4 p-2 rounded-lg text-base font-bold tracking-wide">Enroll Now</button></a>
 
                     </div>
                 </div>
@@ -130,18 +135,24 @@
                      </div>
 
         <div class=" ">
-            <div class="section1 mt-2 h-52 text-xl md:text-3xl text-center font-bold tracking-wide py-2 ">
+            <div class="section1 mt-2 h-auto text-xl md:text-3xl text-center font-bold tracking-wide py-4 ">
                 <span>Marydassie Fashion School</span><br>
-                <p class="text-sm md:text-base font-normal italic">
+                <p class="text-base md:text-base font-normal italic">
                     Welcome to Marydassie Fashion School,</br>
                     We appreciate your interest in our institution,
                      Relax as you explore the school's community and <br>
                      all the good things we have to offer you.<br> Thank you.
                 </p>
-                <div id="button" class="text-lg mt-2 ">
-                    <button  class="text-xs md:text-sm px-4 py-2 mr-20 bg-gray-800  ">Enroll Now</button>
-                    <button class="text-xs md:text-sm px-4 py-2  ">About Us</button>
-                </div>
+
+               
+
+          
+
+                
+                <!-- <div id="button" class="text-lg mt-2 ">
+                    <a href="./pages/admission.html "  class="text-xs md:text-sm px-4 py-2 mr-20 bg-gray-800  ">Enroll Now</a>
+                    <a href="./pages/about.html " class="text-xs md:text-sm px-4 py-2  ">About Us</a>
+                </div> -->
             </div>
     
             
@@ -154,8 +165,97 @@
             <div class="w-full bg-bg-200">
                 <div id="section3" class="w-full " >
                     <div class="text-center text-2xl pb-2 md:pb-0 md:text-3xl font-bold text-sans">PROGRAMS</div>
+                    <div class=" grid grid-cols-1 lg:grid-cols-3 md:gap-4">
+                        <div>
+                            <div class="mt-2 md:mt-6 mb-2 ml-8 ">
+                            <div class="text-left text-lg font-bold text-xl md:text-2xl  programname">School of Fashion</div>
+                            <div class="grid grid-cols-1 ">
+                                <div class="w-64"><img src="images/fashion-advert.jpg" alt="fashion-advert"></div>
+
+                           <div> <p>
+                                <span class="text-gray-400 text-sm md:text-base">In School of fashion, we offer the following programmes <br> with full practicals:</span>
+                                <ul>
+                                    <li>Fashion Designing</li>
+                                    <li>Fashion Drawing</li>
+                                    <li>Accessories Design</li>
+                                    <li>Garment Contruction</li>
+                                    <li>Computer aided design</li>
+                                    <li>Fashion merchandising</li>
+                                    <li>Fashion Forecasting</li>
+                                </ul>
         
-                    <div class="md:grid md:grid-cols-2  ">
+                                <button  class="btn text-sm px-4 py-2 mr-20 font-bold" href="./pages/admission.html#application">Enroll Now</button>
+        
+        
+                                
+                            </p></div>
+                            </div>
+                        </div>
+
+                        </div>
+
+                        <div>
+                            <div class="mt-2 md:mt-6 mb-2 ml-8">
+                                <div class="text-left text-lg font-bold text-xl md:text-2xl programname  ">School of I.T</div>
+                            <div class="grid grid-cols-1 ">
+                                <div class="w-64 mt-4"><img src="images/I.T advert.jpg" alt="I.T-advert" class=""></div>
+
+    
+    
+    
+                            <div><p>
+                                <span class="text-gray-400 text-sm md:text-base">In School of I.T, we offer the following programmes <br> with full practicals:</span>
+                                <ul>
+                                    <li>Microsoft Application</li>
+                                    <li>Secretarialship</li>
+                                    <li>Graphic Design</li>
+                                    <li>Basic in I.C.T</li>
+                                    
+                                
+                                </ul>
+        
+                                <button  class="btn text-sm px-4 py-2 mr-20 font-bold" href="./pages/admission.html#application">Enroll Now</button>
+        
+                            </p></div>
+                            </div>
+
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="mt-2 md:mt-6 mb-2 ml-8">
+                                <div class="text-left text-lg font-bold text-xl md:text-2xl  programname">School of Photography</div>
+                            <div class="grid grid-cols-1 ">
+                                <div class="mt-4 w-64"><img src="images/photo-advert.jpg" alt="I.T-advert" ></div>
+
+        
+        
+                            <div><p >
+                                <span class="text-gray-400 text-gray-400 text-sm md:text-base">In School of Photography, we offer the following programmes <br> with full practicals:</span>
+                                <ul>
+                                    <li>Camera Control</li>
+                                    <li>Expossure</li>
+                                    <li>Shooting at night</li>
+                                    <li>Type of Photography</li>
+                                    <li>Computer aided design</li>
+                                    <li>Potraite</li>
+                                
+                                </ul>
+        
+                                <button  class="btn text-sm px-4 py-2 mr-20 font-bold" href="./pages/admission.html#application">Enroll Now</button>
+        
+        
+                                
+                            </p></div>
+                            </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+        
+                    <!-- <div class="md:grid md:grid-cols-2  ">
                         <div class="mt-2 md:mt-6 mb-2 ml-8 ">
                             <div class="text-left text-lg font-bold text-xl md:text-2xl  programname">School of Fashion</div>
                             <p>
@@ -211,7 +311,7 @@
                             <div class="text-left text-lg font-bold text-xl md:text-2xl  programname">School of Photography</div>
         
         
-                            <p>
+                            <p >
                                 <span class="text-gray-400 text-gray-400 text-sm md:text-base">In School of Photography, we offer the following programmes <br> with full practicals:</span>
                                 <ul>
                                     <li>Camera Control</li>
@@ -230,12 +330,12 @@
                             </p>
                         </div>
         
-                        <div><img src="images/photo-advert.jpg" alt="I.T-advert"></div>
+                        <div class="mt-4"><img src="images/photo-advert.jpg" alt="I.T-advert" ></div>
         
         
     
                      </div>
-    
+     -->
                      
     
                 </div>
@@ -262,7 +362,7 @@
                 them build and create their brands in the world of business.
             </p>
 
-            <button class="btn px-2">About Us</button>
+            <button class="btn px-2" href="./pages/about.html">About Us</button>
 
            </div>
            <div>
@@ -295,7 +395,7 @@
 
 
                     </p>
-                    <button class="btn ml-4  md:ml-0 px-2">About Us</button>
+                    <button class="btn ml-4  md:ml-0 px-2" href="./pages/about.html">About Us</button>
 
                 </div>
             </div>
@@ -318,7 +418,7 @@
                     <span class="fa fa-star checked text-yellow-400"></span>
                     <span class="fa fa-star checked text-yellow-400"></span>
                 </div>
-                <p class='text-center px-4  text-sm '>
+                <p class='text-center px-4  text-base '>
                     <span class='text-lg text-gray-700 font-bold italic'>"Condusive Learning Environment"</span><br></br>
                     My name is Janet, a student of Marydassie fashion school.
                     I just love the school, the tutors are so friendly. within just five (5) months, I made a dress for mom and she was pround.
@@ -336,7 +436,7 @@
                     <span class="fa fa-star checked text-yellow-400"></span>
                 </div>
 
-                <p class='text-center px-4  text-sm  '>
+                <p class='text-center px-4  text-base  '>
                     <span class='text-lg text-gray-700 font-bold italic'>"Flexible Academic schedules"</span><br></br>
                     Am here in the school of Photography,
                     honestly, the school is amazing. flexible academic schedules, always having practiclas and exploring nature to enhance shooting skills.
@@ -355,7 +455,7 @@
                 </div>
 
                 
-                <p class='text-center px-4  text-sm '>
+                <p class='text-center px-4  text-base '>
                     <span class='text-lg text-gray-700 font-bold italic'>"Friendly Tutors & Great IT Facilities"</span><br></br>
                     In Marydassie Fashion School, the tutors are friendly and teach us everything we need to know about fashion.<br>
                     In my school, every student is enlighten on the use of computer in order to equipe us with modern experience.
@@ -372,11 +472,9 @@
 <div id="footer" class="w-full mt-6">
     <div class="pb-4 mx-4 md:mx-0">
         <ul class="flex justify-center py-4 text-white font-bold text-sm lg:text-base " id="footerlink">
-            <li><a href="#main" class="mx-2 md:mx-4 footerlinks ">Home</a></li>
-            <li><a href="#about" class="mx-2 md:mx-4 footerlinks ">About</a></li>
-            <li><a href="#Videos" class="mx-2 md:mx-4 footerlinks ">Admission</a></li>
-            <li><a href="#Contacts" class="mx-2 md:mx-4 footerlinks ">Services</a></li>
-            <li><a href="#section4" class="mx-2 md:mx-4 footerlinks ">Contact</a></li>
+            <li><a href="./" class="mx-2 md:mx-4 footerlinks ">Home</a></li>
+            <li><a href="./pages/about.html" class="mx-2 md:mx-4 footerlinks ">About</a></li>
+            <li><a href="./pages/admission.html" class="mx-2 md:mx-4 footerlinks ">Admission</a></li>
         </ul>
         
 
@@ -410,16 +508,7 @@
 
         </div>
 
-        <div id="supportform" class="lg:w-1/4 w-3/4 pt-6 lg:pt-0">
-            <p class="pb-4 text-white">For Support: </p>
-            <form>
-                <input type="email" placeholder="email" size="30px" class="input" maxlength="30"/></br>
-                <input id="textmessage" type="text" cols="40" rows="5" name="message"  class="w-40 h-12"
-                placeholder="I want to apply, How?"/></br>
-                <button class="btn font-bold text-sans " type="submit" >Submit</button>
-
-            </form>
-        </div>
+        
 
     </div>
 

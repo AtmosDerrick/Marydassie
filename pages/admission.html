@@ -12,12 +12,14 @@
      <!--icons cdn-->
      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+      <link rel="icon" type="image/x-icon" href="./images/logo.png">
  
 
     <title>Marydassie-Admission</title>
 </head>
 <body>
-    <div class="container">
+    <div class="w-full mx-auto">
         <div class="landingpage">
             <div class=" navbar flex justify-between  md:px-8 px-2">
                 <div>
@@ -26,14 +28,15 @@
                     </a>
                 </div>
     
-                <ul class="hidden   lg:flex justify-center ml-8  py-4 text-white font-bold ">
+               
+
+                <div> 
+                    <ul class="hidden   lg:flex justify-center ml-8  py-4 text-white font-bold ">
                     <li><a href="../index.html" class="mx-4 ">Home</a></li>
-                    <li><a href="about.html" class="mx-4 ">About</a></li>
-                    <li><a href="admission.html" class="mx-4 ">Admission</a></li>
+                    <li><a href="./about.html" class="mx-4 ">About</a></li>
+                    <li><a href="./admission.html" class="mx-4 ">Admission</a></li>
                     <li><a href="#contact" class="mx-4 ">Contact</a></li>
                 </ul>
-
-                <div>
                     <button  id="menubutt"  ><span class="menu inline-block lg:hidden  text-white text-4xl visible pt-4  "><ion-icon name="menu-outline"></ion-icon></span></button>     
                 </div>
                 
@@ -42,12 +45,12 @@
                 </div>
 
 
-                <div class="pb-4 menulink" class="lg:invisible">
+                <div class="pb-4 menulink w-full md:w-1/2" class="lg:invisible">
                     <ul class="py-4 bg-white  font-bold text-sm lg:text-base  " id="menulink">
-                        <div class="pt-2 text-lg uppercase linkk"><li><a href="./" class="  mx-4 ">Home</a></li></div>
-                        <div class="pt-6 text-lg uppercase linkk"><li><a href="../pages/about.html" class="  mx-4 ">About</a></li></div>
-                        <div class="pt-6 text-lg uppercase linkk"><li><a href="../pages/admission.html" class="   mx-4">Admission</a></li></div>
-                        <div class="pt-6 text-lg uppercase linkk"><li><a href="#footer" class="  mx-4 ">Contact</a></li></div>
+                        <div class="pt-2 text-lg uppercase shadow-sm linkk"><li><a href="../index.html" class="  mx-4 ">Home</a></li></div>
+                        <div class="pt-6 text-lg uppercase shadow-sm linkk"><li><a href="./about.html" class="  mx-4 ">About</a></li></div>
+                        <div class="pt-6 text-lg uppercase shadow-sm linkk"><li><a href="./admission.html" class="   mx-4">Admission</a></li></div>
+                        <div class="pt-6 text-lg uppercase shadow-sm linkk"><li><a href="#footer" class="  mx-4 ">Contact</a></li></div>
     
                        
                     </ul>
@@ -61,8 +64,8 @@
 
 
             <div class="landingword w-full text-center ">
-                <div class="text-5xl  text-yellow-400 font-bold">ADMISSION IN PROGRESS</div>
-                <div class="text-3xl font-bold text-white mt-4   "><h2>ADMISSIONS</h2></div>
+                <div class="text-3xl  text-yellow-400 font-bold">ADMISSION IN PROGRESS</div>
+                <div class="text-2xl font-bold text-white mt-4   "><h2>ADMISSIONS</h2></div>
 
                 <a href="#form"><button class="landingbutton mt-2 md:mt-4 p-2 rounded-lg text-base font-bold tracking-wide">Enroll Now</button></a>
             
@@ -160,7 +163,7 @@
                     
                 </div>
 
-                <div class="application">
+                <div id="application">
                     <div class="text-center text-3xl text-center text-sans font-bold uppercase title mt-2">How to Apply</div>
                     <div class="lg:grid lg:grid-cols-2  md:mx-2 mt-4">
                         <div class="instuction w-full text-sm lg:text-base bg-gray-800 text-white px-2 md:px-8 py-4 ">
@@ -212,21 +215,22 @@
 
                 </div>
         </div>
+        </div>
 
         <div id="footer" class="w-full mt-6">
-            <div class="pb-4 mx-4 md:mx-0">
+            <div class="pb-4 mx-2 md:mx-0">
                 <ul class="flex justify-center py-4 text-white font-bold text-sm lg:text-base " id="footerlink">
-                    <li><a href="#main" class="mx-2 md:mx-4 footerlinks ">Home</a></li>
-                    <li><a href="#about" class="mx-2 md:mx-4 footerlinks ">About</a></li>
-                    <li><a href="#Videos" class="mx-2 md:mx-4 footerlinks ">Admission</a></li>
-                    <li><a href="#Contacts" class="mx-2 md:mx-4 footerlinks ">Services</a></li>
-                    <li><a href="#section4" class="mx-2 md:mx-4 footerlinks ">Contact</a></li>
+                    <li><a href="../index.html" class="mx-2 md:mx-4 footerlinks ">Home</a></li>
+                    <li><a href="./about" class="mx-2 md:mx-4 footerlinks ">About</a></li>
+                    <li><a href="./Videos" class="mx-2 md:mx-4 footerlinks ">Admission</a></li>
+                    <li><a href="./Contacts" class="mx-2 md:mx-4 footerlinks ">Services</a></li>
+                    <li><a href="./section4" class="mx-2 md:mx-4 footerlinks ">Contact</a></li>
                 </ul>
                 
         
             </div>
         
-            <div class="lg:flex lg:justify-between mx-8">
+            <div class="lg:flex lg:justify-between mx-4">
                 <div class="text-white lg:w-1/4 w-full md:w-3/4  " id="socialmedia">
                     <p class="text-sm">Kindly follow our Social media page
                         for more updates and imporvement
